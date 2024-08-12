@@ -40,5 +40,15 @@ To make production build
   npm run build
 ```
 
+## Screenshots
 
+![App](./public/screenshots/Dashboard.png)
+
+![App](./public/screenshots/Add_Challenges.png)
+
+![App](./public/screenshots/Active.png)
+
+![App](./public/screenshots/Completed.png)
+
+![App](./public/screenshots/Failed.png)
  
