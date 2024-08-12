@@ -8,7 +8,11 @@ export default function WelcomePage() {
   const { scrollY } = useScroll();
 
   const yCity = useTransform(scrollY, [0, 200], [0, -100]);
-  const opacityCity = useTransform(scrollY, [0, 200, 300, 500], [1, 0.5, 0.5, 0]);
+  const opacityCity = useTransform(
+    scrollY,
+    [0, 200, 300, 500],
+    [1, 0.5, 0.5, 0]
+  );
   const yHero = useTransform(scrollY, [0, 200], [0, -150]);
   const opacityHero = useTransform(scrollY, [0, 300, 500], [1, 1, 0]);
   const yText = useTransform(scrollY, [0, 200, 300, 500], [0, 50, 50, 300]);
@@ -66,12 +70,10 @@ export default function WelcomePage() {
           <h2>Features</h2>
           <ul>
             <li>Custom challenge creation: Set the rules, define your pace.</li>
+            <li>Mark and move challenges to completed or failed.</li>
             <li>
-              Track your progress: See your growth over time with our analytics
-              tools.
-            </li>
-            <li>
-              Community Support: Join our community and get motivated by peers.
+              Keep track of your challenges through actve, completed, and failed
+              sections.
             </li>
           </ul>
         </motion.section>
@@ -79,9 +81,7 @@ export default function WelcomePage() {
         <motion.section style={{ opacity: revealOpacity, y: revealY }}>
           <h2>Join Thousands Embracing The Challenge</h2>
           <p>
-            “I never realized what I was capable of until I set my first
-            challenge here. It's been a transformative experience!” - Alex
-            P.
+            “It's a fun and effective way of being consistent with your goals. It's super easy and intuitive.” - User.
           </p>
         </motion.section>
       </main>
