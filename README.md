@@ -15,7 +15,9 @@ It can list new added challenges in active section, and challenges can be maked 
 
 4. Mark as failed or completed as needed. The challenge will be moved to the respective tab.
 
+## Tech Stack / Dependency
 
+React.js | CSS | Framer Motion
 
 ## Demo
 
