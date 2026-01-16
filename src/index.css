@@ -40,6 +40,8 @@ body {
 
 #welcome-header {
   height: 100vh;
+  position: relative;
+  overflow: hidden;
 }
 
 #city-image {
